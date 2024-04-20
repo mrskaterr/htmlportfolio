@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>Pawel Wc:\Users\Klaudia20\Desktop\w\style.cssvawrzyniak - Game Developer</title>
+	
+	<meta name="description" content="Serwis o starych grach pochodzących z Nintendo Entertainment System" />
+	<meta name="keywords" content="gry, komputerowe, retro, nes, konsole, retrogranie, stare gry" />
+	
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	
+</head>
+
+<body>
+
+	
+	<div class="wrapper">
+		<div class="logo">
+			Pawel Wawrzyniak-Game Developer
+			</div>
+		
+		<div class="nav">
+			<ol>
+				<li><a href="#">Strona główna</a></li>
+				<li><a href="#">Klasyki</a>
+					<ul>
+						<li><a href="#">SkATE2</a></li>
+						<li><a href="#">SKATE3</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="#">O autorach</a>
+				</li>
+			</ol>
+		
+		</div>
+		<center>
+			<div id="slider" style="height:500px;">
+			</div>
+		</center>
+		<div class="content">
+		</div>
+		<div class="ad">
+			<center><img src="reklama.jpg" ></center>
+		</div>
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb">
+					<i class="icon-facebook"></i>
+				</div>
+				<div class="yt">
+					<i class="icon-youtube"></i>
+				</div>
+				<div class="tw">
+					<i class="icon-twitter"></i>
+				</div>
+				<div class="gplus">
+					<i class="icon-gplus"></i>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+
+		
+		<div class="footer">DESKOROLKA.com &copy; 2015 Thank you for your visit !</div>
+	</div>
+	
+	<script src="jquery-1.11.
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+</body>
+</html>
